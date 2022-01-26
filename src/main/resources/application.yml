@@ -1,0 +1,9 @@
+server:
+  port: 8880
+
+spring:
+  application:
+    name: careerplan-elasticsearch-service
+elasticsearch:
+  # 开发的时候写的公网地址
+  addr: 127.0.0.1:9200

@@ -1,0 +1,9 @@
+server:
+  port: 8880
+
+spring:
+  application:
+    name: careerplan-elasticsearch-service
+elasticsearch:
+  # 发布的时候写的内网地址
+  addr: 127.0.0.1:9200
